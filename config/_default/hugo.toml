@@ -17,13 +17,11 @@ buildExpired = false
 
 [taxonomies]
   tag = "tags"
-  category = "categories"
-  author = "authors"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
 [sitemap]
-  changefreq = "monthly"
+  changefreq = "weekly"
   filename = "sitemap.xml"
   priority = 0.5
