@@ -1,0 +1,20 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Koitu's Blog"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Personal blog about software, infrastructure, and things I learn."
+
+[params.author]
+  name = "Koitu"
+  headline = "Software & infrastructure notes"
+  bio = "I write about software, infra, and things I learn along the way."
+  links = [
+    { github = "https://github.com/koituhome" },
+  ]

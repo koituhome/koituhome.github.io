@@ -1,0 +1,28 @@
+baseURL = "https://koituhome.github.io/blogs/"
+theme = "blowfish"
+defaultContentLanguage = "en"
+
+# GitHub Pages project site lives under /blogs/. Change this if you add a custom domain.
+
+enableRobotsTXT = true
+summaryLength = 0
+
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
