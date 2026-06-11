@@ -1,8 +1,9 @@
-baseURL = "https://koituhome.github.io/blogs/"
+baseURL = "https://koituhome.github.io/"
 theme = "blowfish"
 defaultContentLanguage = "en"
 
-# GitHub Pages project site lives under /blogs/. Change this if you add a custom domain.
+# Org user-site (repo named koituhome.github.io) serves at the root.
+# Change this if you add a custom domain.
 
 enableRobotsTXT = true
 summaryLength = 0
